@@ -1,0 +1,8 @@
+(err) => {
+        if (err) {
+            reject(err);
+        }
+        else {
+            resolve(gitDataForRepo);
+        }
+    }
